@@ -8,9 +8,15 @@ Google's original implementation of deeplab is available here -> https://github.
 
 Google's implementation is difficult for beginners to follow along and its written mainly in tensorflow , not keras 
 
+bonlime's implementation is great and I copied it but I struggled to follow along so I decided to add more explanations and tweak the inference notebook slightly. I take no credit for the tensorflow to keras conversion however and if you like to see the original page , is here - https://github.com/bonlime/keras-deeplab-v3-plus
+
+I am a great fan of semantic segmentation as a superset of all deep-learning networks and increasing usage within self-driving cards which is an interest area for me. A good explanation of semantic segmentation is here https://www.jeremyjordan.me/semantic-segmentation/
+
+
 Overtime, I will be adding more complexity to this repo and include scripts for training on custom datasets, transfer learning, fine-tuning etc. 
 
-A really good explanation of dilated convolutions and deeplab's structure is explained here https://towardsdatascience.com/review-deeplabv3-atrous-convolution-semantic-segmentation-6d818bfd1d74
+A really good explanation deeplab's structure and a technique called dilated convolutions which is used is explained here https://towardsdatascience.com/review-deeplabv3-atrous-convolution-semantic-segmentation-6d818bfd1d74
+
 
 
 USAGE 
